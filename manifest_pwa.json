@@ -1,0 +1,21 @@
+{
+  "short_name": "KioskPOS",
+  "name": "Smart Kiosk & POS Mandiri UKM",
+  "icons": [
+    {
+      "src": "https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=192&q=80",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=512&q=80",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "./",
+  "background_color": "#120E0B",
+  "theme_color": "#120E0B",
+  "display": "standalone",
+  "orientation": "any"
+}
