@@ -1,9 +1,3 @@
-# =======================================================================
-# KONFIGURASI DEPLOYMENT CLOUDFLARE WORKERS
-# File: wrangler.toml
-# Ditargetkan untuk: kasirmandiri.ku-ghost.workers.dev
-# =======================================================================
-
 name = "kasirmandiri"
 main = "worker.js"
 compatibility_date = "2026-06-16"
