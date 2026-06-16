@@ -1,0 +1,16 @@
+# =======================================================================
+# KONFIGURASI DEPLOYMENT CLOUDFLARE WORKERS
+# File: wrangler.toml
+# Ditargetkan untuk: kasirmandiri.ku-ghost.workers.dev
+# =======================================================================
+
+name = "kasirmandiri"
+main = "worker.js"
+compatibility_date = "2026-06-16"
+
+# Pengikatan Database D1 (Database Binding)
+# Variabel 'KS' di dalam script worker akan terhubung langsung ke database ini
+[[d1_databases]]
+binding = "KS"                                 # Nama Variabel Binding yang Anda minta
+database_name = "kasirmandiri"                 # Nama database D1 di Cloudflare
+database_id = "d31944dd-537a-4dce-8239-30bd01f76a6e"  # Database ID unik Anda
